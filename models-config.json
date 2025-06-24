@@ -1,0 +1,40 @@
+{
+  "providers": {
+    "openai": {
+      "models": {
+        "o3": {
+          "input_price_per_million_tokens": 2.00,
+          "output_price_per_million_tokens": 8.00
+        },
+        "o1-mini": {
+          "input_price_per_million_tokens": 1.10,
+          "output_price_per_million_tokens": 4.40
+        }
+      }
+    },
+    "anthropic": {
+      "models": {
+        "claude-sonnet-4": {
+          "input_price_per_million_tokens": 3.00,
+          "output_price_per_million_tokens": 15.00
+        },
+        "claude-opus-4": {
+          "input_price_per_million_tokens": 15.00,
+          "output_price_per_million_tokens": 75.00
+        }
+      }
+    },
+    "google": {
+      "models": {
+        "gemini-2.5-pro": {
+          "input_price_per_million_tokens": 1.25,
+          "output_price_per_million_tokens": 10.00
+        },
+        "gemini-2.5-flash": {
+          "input_price_per_million_tokens": 0.30,
+          "output_price_per_million_tokens": 2.50
+        }
+      }
+    }
+  }
+} 
