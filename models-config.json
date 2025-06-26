@@ -6,7 +6,7 @@
           "input_price_per_million_tokens": 2.00,
           "output_price_per_million_tokens": 8.00
         },
-        "o1-mini": {
+        "gpt-4o": {
           "input_price_per_million_tokens": 1.10,
           "output_price_per_million_tokens": 4.40
         }
